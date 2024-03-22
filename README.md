@@ -14,27 +14,7 @@ Esse é um bot do Telegram que oferece opções de menu sobre diferentes tópico
 
 4. **Respostas às seleções dos usuários**: Cada código tem funções para responder às seleções dos usuários com mensagens relevantes ou ações apropriadas, com base nos botões que foram pressionados.
 
-## COMO USAR?
-### BAIXANDO O PROJETO:
-**Passo 1:** Clone o repositório para o seu sistema local.
-
-```bash
-git clone https://github.com/VILHALVA/COMANDOS-DE-BOTOES-INLINES.git
-```
-
-**Passo 2:** Navegue até o diretório do projeto.
-
-```bash
-cd COMANDOS-DE-BOTOES-INLINES
-```
-
-**Passo 3:** Descompacte o arquivo ZIP (se você baixou manualmente):
-
-```bash
-unzip COMANDOS-DE-BOTOES-INLINES
-```
-
-### EXECUTANDO O PROJETO:
+## EXECUTANDO O PROJETO:
 1. **Coloque o Token:**
    - Antes de executar o programa, é necessário substituir o token do seu bot, o qual pode ser obtido por meio do [@BotFather](https://t.me/BotFather). Certifique-se também de que todas as dependências estejam instaladas em sua máquina. Se você não estiver familiarizado com esses passos, confira nosso [curso completo sobre a criação de bots no Telegram](https://github.com/VILHALVA/CURSO-DE-TELEGRAM-BOT) para obter orientações detalhadas.
 
@@ -45,9 +25,9 @@ unzip COMANDOS-DE-BOTOES-INLINES
 ```
    - Inicie o bot enviando o comando `/start`. Receba uma mensagem de boas-vindas e clique nos botões.
 
-## CREDITOS:
+## SAIBA MAIS:
 - [PROJETO CRIADO PELO VILHALVA](https://github.com/VILHALVA)
-
+- [FAÇA OS NOSSOS CURSOS](https://github.com/VILHALVA?tab=repositories&q=+topic:CURSO)
 
 
 
