@@ -16,7 +16,7 @@ Esse é um bot do Telegram que oferece opções de menu sobre diferentes tópico
 
 ## EXECUTANDO O PROJETO:
 1. **Coloque o Token:**
-   - Antes de executar o programa, é necessário substituir o token do seu bot, o qual pode ser obtido por meio do [@BotFather](https://t.me/BotFather). Certifique-se também de que todas as dependências estejam instaladas em sua máquina. Se você não estiver familiarizado com esses passos, confira nosso [curso completo sobre a criação de bots no Telegram](https://github.com/VILHALVA/CURSO-DE-TELEGRAM-BOT) para obter orientações detalhadas.
+   - Antes de executar o programa, é necessário substituir o token do seu bot, o qual pode ser obtido por meio do [@BotFather](https://t.me/BotFather). Certifique-se também de que todas as dependências estejam instaladas em sua máquina. 
 
 2. **Inicie o Bot:**
    - Execute o bot do Telegram em Python iniciando-o com o seguinte comando:
@@ -27,7 +27,7 @@ Esse é um bot do Telegram que oferece opções de menu sobre diferentes tópico
 
 ## SAIBA MAIS:
 - [PROJETO CRIADO PELO VILHALVA](https://github.com/VILHALVA)
-- [FAÇA OS NOSSOS CURSOS](https://github.com/VILHALVA?tab=repositories&q=+topic:CURSO)
+- [CURSO DE TELEBOT](https://github.com/VILHALVA/CURSO-DE-TELEBOT)
 
 
 
