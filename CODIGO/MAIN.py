@@ -3,11 +3,10 @@ import ASTRONOMIA
 import CIENCIA
 import TECNOLOGIA
 import TELEGRAM
+from TOKEN import TOKEN
 
-TOKEN = "SEU_TOKEN"
 bot = telebot.TeleBot(TOKEN)
 
-# Handler para o comando /start ou /menu
 @bot.message_handler(commands=["start", "menu"])
 def menu_principal(message):
     markup = telebot.types.InlineKeyboardMarkup()
@@ -27,7 +26,6 @@ def menu_principal(message):
 '''
     bot.send_message(message.chat.id, texto, reply_markup=markup)
 
-# Handler para os callbacks dos botões
 @bot.callback_query_handler(func=lambda call: True)
 def callback_query_handler(call):
     if call.data == 'astronomia':
@@ -44,5 +42,4 @@ def callback_query_handler(call):
         TECNOLOGIA.callback_query(bot, call)
         TELEGRAM.callback_query(bot, call)
 
-# Iniciar o bot
 bot.polling()
